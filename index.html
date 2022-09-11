@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Portfolio</title>
+   <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+</head>
+
+<body>
+   <a-scene position="0 0 0">
+         <img src="TexturesCom_Parquet_M.png" id="ground" alt="">
+         <img src="TexturesCom_PlasterDamaged1047_2_M.png"
+          id="wall" alt="">
+        </a-assets>
+      <!--Background-->
+     <a-sky color="#AE8BE2"></a-sky>
+     <!--Ground--> 
+     <!--Instructions-->
+     <a-plane id="demo" width="10" height="10" position="0 0 -5"
+                 rotation="0 0 0" color="000AB0">
+         <a-text value="Press S To View My Portfolio"
+         position="0 0 0.1" color="#000000"></a-text>
+         <a-text value="Use A/W/S/D key to control"
+         position="1.5 2 0.1" color="#000000"></a-text>
+         <a-text value="Use your Cursor to turn around"
+         position="-3 1 0.1" color="#000000"></a-text>
+         <a-text value="Welcome to the VR World"
+         position="-1 -2 0.1" color="#000000"></a-text>
+         <a id="myEnterVRButton" href="#"></a>
+         <a id="myEnterARButton" href="#"></a>
+         <a-text value="NAVIGATION"
+         position="0 4.5 0.1" color="#000000"></a-text>
+         <button height="1" width="1" position="0 0 0" color="#000000"></button>
+         
+      </a-plane>
+      
+      <!--Portfolio page-->
+      <a-box height="10" width="10" 
+      depth="0.002" color="#393939"
+       position="0 0 0"></a-box>
+      <!--Portfolio  heading-->
+      <a-plane height="0.5" width="2" color="#030303" position="0 4.5 0.1">
+         <a-text value="Portfolio" color="#FD0303"
+         position="-0.5 0 0.01"></a-text>
+        </a-plane>
+
+        <!--Contact details.................................................................-->
+        <a-plane height="1.6" width="9.5" 
+        color="#5572FB" position="0 3.2 0.01">
+        
+        <a-text value="Conatact Details" color="#000000"
+           position="-0.8 0.6 0.01"></a-text>
+           <a-text value="Mail : indrajit21_ug@cse.nits.ac.in" color="#000000"
+         position="-4.5 0 0.01"></a-text>
+           <a-text value="Phone Number: 7086179553" color="#000000"
+           position="-0.8 0 0.01"></a-text>
+          <a-text value="LinkedIn" color="#000000"
+          position="-4.5 -0.4 0.01"></a-text>
+          <a-text value="Social Media" color="#000000"
+          position="-0.8 -0.4 0.01"></a-text>
+        </a-plane>
+
+      <!--Educational Details-...........................................-->
+      <a-plane height="2" width="5.5" 
+      color="#98ED87" position="-2 1 0.01">
+      
+        <a-text value="Education" color="#020E4C"
+         position="-0.5 0.7 0.01">
+       </a-text>
+         <a-text value="Studying Computer Science and Engineering 
+         at NIT Silchar (2021-25 Batch)" color="#154C02"
+         position="-2.4 0.2 0.01"></a-text>
+         <a-text value="Completed 12th :-  88% at JNV Bongaigaon 2020" color="#154C02"
+         position="-2.4 -0.25 0.01"></a-text>
+        <a-text value="Completed 10th :-  92% at JNV Bongaigaon 2018" color="#154C02"
+        position="-2.4 -0.6 0.01"></a-text>
+      </a-plane>
+      <!-- ABOUT.............................................-->
+      <a-plane height="2.3" width="3.5" 
+      color="#83C127" position="3 .85 0.01"> 
+   <a-text value="About" color="#000000" position="-0.2 0.8 0.01">
+   </a-text>
+   <a-text value="Address: Vill- Chiponsila, Kahipara
+    P.O- Chiponsila, Dist:Bongaigaon,
+     Assam,PIN: 783380" color="#000000" position="-1.65 0.2 0.01"></a-text>
+     <a-text value="Hobbies: Playing Badminton, 
+     Listening Song, Watching Movies." color="#000000"
+     position="-1.65 -0.5 0.01"></a-text>
+</a-plane>
+ <!--Experience.......................................-->
+ <a-plane height="2" width="3.5" 
+ color="#65BAE5" position="-2 -1.3 0.01"> 
+ <a-text value="Experience" color="#000000" position="-0.5 0.7 0.01"></a-text>
+ <a-text value="CSS Hacks 1st position'2022"
+ color="#070000" position="-1.5 0 0.01"></a-text>
+ <a-text value="To be updated"
+ color="#070000" position="-1.5 -0.3 0.01"></a-text>
+
+</a-plane>
+<!--Skills.............................................-->
+<a-plane height="2" width="2.7" 
+color="#9D65E5" position="3 -1.5 0.01"> 
+<a-text value="Skills" color="#000000" position="-0.3 0.8 0.01"></a-text>
+<a-text value="C" color="#000000" position="-1.2 0.4 0.01"></a-text>
+<a-text value="C++" color="#000000" position="-1.2 0.1 0.01"></a-text>
+<a-text value="HTML, CSS" color="#000000" position="-1.2 -0.2 0.01"></a-text>
+<a-text value="Java Script" color="#000000" position="-1.2 -0.5 0.01"></a-text>
+<a-text value="A-frame(Virtual Reality) "color="#000000" position="-1.2 -0.8 0.01" ></a-text></a-plane>
+
+<!-- Achievements.............................................-->
+<a-plane height="2" width="3.5" 
+color="#E5C765" position="-2.5 -3.5 0.01">
+<a-text value="Achievements" color="#000000" position="-1 0.6 0.01"></a-text>
+<a-text value="Manak Inspire Awards:-
+10,000/- Rs prize money"  color="#000000" position="-1.4 0 0.01"></a-text>
+<a-text value="OIS-30 Scholar" color="#000000" position="-1.4 -0.4 0.01"></a-text>
+ </a-plane>
+ <!-- Git Hub Projects.............................................-->
+ <a-plane height="2" width="3.5" 
+ color="#FC8980" position="2.5 -3.7 0.01">
+ <a-text value="Git-Hub Projects" color="#000000" position="-0.8 0.6 0.01"></a-text> 
+ <a-text value="Evento" color="#000000" position="-1.4 0.2 0.01"></a-text>
+ <a-text value="CSS Hacks" color="#000000" position="-1.4 -0.1 0.01"></a-text>
+ <a-text value="VR Portfolio" color="#000000" position="-1.4 -0.4 0.01"></a-text>
+ <a-text value="" color="#000000" position="-1.4 -0.7 0.01"></a-text></a-plane>
+
+ <!--light
+   <a-light type="ambient" color="#809800" intensity="2" angle="60" position="-6 -2 -6"></a-light>
+ -->
+
+ <a-sound src="src: url(http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg)" on="true" autoplay="true" position="0 2 5"></a-sound>
+
+      <!--z +ve coordinate-->
+      <a-box height="0.1" width="0.1" 
+      depth="0.1" color="#FFF565" position="0 0 5"></a-box>
+      <!--z -ve coordinate-->
+      <a-box height="0.1" width="0.1" 
+      depth="0.1" color="#000000" position="0 0 -5"></a-box>
+      <!--y +ve coordinate-->
+      <a-box height="0.1" width="0.1" 
+      depth="0.1" color="#FCF555" position="0 1 0"></a-box>
+      <!--y -ve coordinate-->
+      <a-box height="0.1" width="0.1" 
+      depth="0.1" color="#FFF555" position="0 -1  0"></a-box>
+      <!--x +ve cordnate-->
+      <a-box height="0.1" width="0.1" 
+      depth="0.1" color="#FF0555" position="1 0 0"></a-box>
+      <!---ve x coordinate-->
+      <a-box height="0.1" width="0.1" 
+      depth="0.1" color="#8D8786" position="-1 0 0"></a-box>
+      <a-entity>
+        <a-camera position="0 0 0" rotation="0 0 0"></a-camera>
+      </a-entity>
+
+   </a-scene>
+   <script src="index.js"></script>
+</body>
+
+</html>
